@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-RainCity.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\unreal_engine\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\unreal_project\RainCity\Intermediate\Build\Win64\UE4Editor\Development\RainCity\RainCity.cpp.obj"
+"E:\unreal_project\RainCity\Intermediate\Build\Win64\UE4Editor\Development\RainCity\RainCityGameModeBase.cpp.obj"
+"E:\unreal_project\RainCity\Intermediate\Build\Win64\UE4Editor\Development\RainCity\RainCity.init.gen.cpp.obj"
+"E:\unreal_project\RainCity\Intermediate\Build\Win64\UE4Editor\Development\RainCity\RainCityGameModeBase.gen.cpp.obj"
+"E:\unreal_engine\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\RainCity\PCLaunch.rc.res"
+"E:\unreal_engine\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"E:\unreal_project\RainCity\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RainCity.lib"

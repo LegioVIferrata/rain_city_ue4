@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\RainCity.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{BEED605C-DAAD-483C-805F-B46246659B3B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\RainCity.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\RainCityEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{CA1B765C-D187-4246-8E02-E31D5ADFC0CF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\RainCity">
+			<UniqueIdentifier>{890AAD37-406D-4F05-B0C8-915FF0DE9282}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\RainCity\RainCity.Build.cs">
+			<Filter>Source\RainCity</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\RainCity\RainCity.cpp">
+			<Filter>Source\RainCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RainCity\RainCity.h">
+			<Filter>Source\RainCity</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\RainCity\RainCityGameModeBase.cpp">
+			<Filter>Source\RainCity</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RainCity\RainCityGameModeBase.h">
+			<Filter>Source\RainCity</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
